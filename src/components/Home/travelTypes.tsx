@@ -6,7 +6,7 @@ export function TraveTypes() {
   const variant = useBreakpointValue({
     base: "normal", md: "resized"
   })
-  console.log(variant)
+
   const travelsTypes = [
     { imageSrc: './assets/cocktail.svg', description: 'vida noturna' },
     { imageSrc: './assets/surf.svg', description: 'praia' },
@@ -27,7 +27,6 @@ export function TraveTypes() {
           <HStack
             key={travelsType.description}
             align="center" spacing="2"
-
           >
             <Box height="2" w="2" borderRadius={'full'} bg="highlight.100" />
             <Text fontWeight="600" fontSize={[18, 24]}>{travelsType.description}</Text>

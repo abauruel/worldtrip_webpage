@@ -1,4 +1,5 @@
-import { Box, Flex, Text, VStack, HStack, Image } from '@chakra-ui/react'
+
+import { Box, Flex, Text, VStack, HStack, Image, Link } from '@chakra-ui/react'
 import { Header } from '../components/Header'
 import { Banner } from '../components/Home/banner'
 import { TraveTypes } from '../components/Home/travelTypes'
@@ -59,12 +60,16 @@ export default function Home() {
                   top="40%"
                   transform="translate(-50% -50%)"
                 >
-                  <Text
-                    justifyContent="center"
-                    fontWeight="700"
-                    fontSize={[36, 48]}
-                    color="light.100"
-                  >{continent.name}</Text>
+                  <Link as="a" href={`/continent?name=${continent.name}`}>
+
+                    <Text
+                      justifyContent="center"
+                      fontWeight="700"
+                      fontSize={[36, 48]}
+                      color="light.100"
+                    >{continent.name}</Text>
+
+                  </Link>
                   <Text
                     fontWeight="700"
                     fontSize={[18, 24]}
