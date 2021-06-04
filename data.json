@@ -1,0 +1,160 @@
+{
+  "continents": [
+    {
+      "picture": "https://images.unsplash.com/photo-1565366358089-14a5c3086eda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+      "name": "América",
+      "slogan": "Venha conhecer as américas",
+      "description": "América é o continente localizado no hemisfério ocidental e que se estende, no sentido norte-sul, desde o oceano Ártico até o cabo Horn, ao longo de cerca de 15 mil quilômetros. Os cinco maiores países da América, Canadá, Estados Unidos, Brasil, Argentina e México são também as maiores economias, que estão entre as vinte maiores do mundo.",
+      "countries": 36,
+      "tongue": 1061,
+      "cities": 12,
+      "countriesTopVisited": [
+        {
+          "picture": "https://images.unsplash.com/photo-1530686577637-0ccce382b327?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2005&q=80",
+          "name": "Estados Unidos",
+          "city": "Miami",
+          "flag": "https://image.flaticon.com/icons/png/512/206/206626.png"
+        },
+        {
+          "picture": "https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2091&q=80",
+          "name": "México",
+          "city": "Cancun",
+          "flag": "https://image.flaticon.com/icons/png/512/330/330433.png"
+        },
+        {
+          "picture": "https://images.unsplash.com/photo-1559511260-66a654ae982a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1992&q=80",
+          "name": "Canada",
+          "city": "Vancouver",
+          "flag": "https://image.flaticon.com/icons/png/512/206/206609.png"
+        },
+        {
+          "picture": "https://images.unsplash.com/photo-1611599654038-84ebdcde6598?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1567&q=80",
+          "name": "Argentina",
+          "city": "Buenos Aires",
+          "flag": "https://image.flaticon.com/icons/png/512/206/206654.png"
+        },
+        {
+          "picture": "https://images.unsplash.com/photo-1611874452432-3a267c766bfc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+          "name": "Peru",
+          "capital": "Lima",
+          "flag": "https://image.flaticon.com/icons/png/512/206/206664.png"
+        }
+      ]
+    },
+    {
+      "picture": "https://images.unsplash.com/photo-1608817576203-3c27ed168bd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2055&q=80",
+      "name": "Europa",
+      "slogan": "Continente mais antigo.",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "countries": 46,
+      "tongue": 60,
+      "cities": 16,
+      "countriesTopVisited": [
+        {
+          "picture": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+          "name": "França",
+          "city": "Paris",
+          "flag": "https://image.flaticon.com/icons/png/512/206/206657.png"
+        },
+        {
+          "picture": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1586&q=80",
+          "name": "Italia",
+          "city": "Roma",
+          "flag": "https://image.flaticon.com/icons/png/512/555/555668.png"
+        },
+        {
+          "picture": "https://images.unsplash.com/photo-1564511287568-54483b52a35e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+          "name": "Republica Checa",
+          "city": "Praga",
+          "flag": "https://image.flaticon.com/icons/png/512/206/206703.png"
+        },
+        {
+          "picture": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+          "name": "Holanda",
+          "city": "Amsterdã",
+          "flag": "https://image.flaticon.com/icons/png/512/206/206615.png"
+        },
+        {
+          "picture": "https://images.unsplash.com/photo-1564221710304-0b37c8b9d729?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+          "name": "Espanha",
+          "city": "Barcelona",
+          "flag": "https://image.flaticon.com/icons/png/512/555/555635.png"
+        }
+      ]
+    },
+    {
+      "picture": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80",
+      "name": "Africa",
+      "slogan": "Espírito aventureiro.",
+      "description": "O mundo é repleto de destinos incríveis para quem deseja conhecer novos lugares e não abre mão de criar memórias inesquecíveis. Se você tem esse espírito aventureiro, quer arrumar as malas e partir para uma nova viagem, você precisa pensar na possibilidade de fazer turismo na África. Certamente, as opções desse continente poderão lhe surpreender.",
+      "countries": 54,
+      "tongue": 2092,
+      "cities": 6,
+      "countriesTopVisited": [
+        {
+          "picture": "https://media-cdn.tripadvisor.com/media/photo-s/1c/d0/65/9e/exterior-view.jpg",
+          "name": "Arabia Saudita",
+          "city": "Mecca",
+          "flag": "https://img-premium.flaticon.com/png/512/206/206719.png?token=exp=1622771464~hmac=e445a08b75b6c6e60f6b79c8097cdf0c"
+        },
+        {
+          "picture": "https://images.unsplash.com/photo-1577948000111-9c970dfe3743?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80",
+          "name": "Africa do Sul",
+          "city": "Joanesburgo",
+          "flag": "https://img-premium.flaticon.com/png/512/206/206652.png?token=exp=1622771766~hmac=598ba6e5fdcf7e6cf3f9be86fae13c1c"
+        },
+        {
+          "picture": "https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1997&q=80",
+          "name": "Marrocos",
+          "city": "Marrakech",
+          "flag": "https://image.flaticon.com/icons/png/512/206/206686.png"
+        },
+        {
+          "picture": "https://www.fly4free.com/wp-content/uploads/2019/11/ST_An-aerial-view-on-Hurghada-town-in-Egypt.jpg",
+          "name": "Egito",
+          "city": "Hurghada",
+          "flag": "https://image.flaticon.com/icons/png/512/206/206694.png"
+        },
+        {
+          "picture": "https://images.unsplash.com/photo-1602490487033-47e43479d51b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1094&q=80",
+          "name": "Emirados Arabes Unidos",
+          "city": "Abu Dhabi",
+          "flag": "https://image.flaticon.com/icons/png/512/206/206701.png"
+        }
+      ]
+    },
+    {
+      "picture": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+      "name": "Oceania",
+      "slogan": "Desvendando as belezas.",
+      "description": "O menor dos continentes é, também, um dos mais versáteis destinos a ser desbravado, de braços abertos tanto para quem não abre mão de uma boa estrutura e muito conforto para curtir sol e mar nas viagens, quanto para os exploradores mais ativos, que curtem mochila nas costas.",
+      "countries": 3,
+      "tongue": 3,
+      "cities": 14,
+      "countriesTopVisited": [
+        {
+          "picture": "https://images.unsplash.com/photo-1613079900861-0b9ecc4e1b93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80",
+          "name": "Australia",
+          "city": "Sidney",
+          "flag": "https://image.flaticon.com/icons/png/512/206/206618.png"
+        },
+        {
+          "picture": "https://images.unsplash.com/photo-1600208669687-f19af3638cb9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+          "name": "Nova Zelândia",
+          "city": "Macau",
+          "flag": "https://image.flaticon.com/icons/png/512/206/206731.png"
+        }
+      ]
+    },
+    {
+      "picture": "http://aun.webhostusp.sti.usp.br/wp-content/uploads/derretimento-gelo-antartica-nivel-recorde-conexao-planeta-678x381.jpg",
+      "name": "Antártida",
+      "slogan": "Continente mais frio do planeta.",
+      "description": "Mesmo com todas essas condições adversas, a Antártida é habitada por uma média de 4 mil pessoas durante o verão e 800 pessoas durante o inverno, sendo todos eles pesquisadores de 27 países diferentes, que possuem base científica no continente. O Brasil é uma das nações que realizam pesquisas com fins pacíficos nesse continente, com a base Comandante Ferraz.",
+      "countries": "-",
+      "tongue": "-",
+      "cities": "-",
+      "countriesTopVisited": []
+    }
+  ]
+}

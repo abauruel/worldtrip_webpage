@@ -2,6 +2,7 @@ import { Box, Flex, Text, VStack, HStack, Image } from '@chakra-ui/react'
 import { Header } from '../components/Header'
 import { Banner } from '../components/Home/banner'
 import { TraveTypes } from '../components/Home/travelTypes'
+import data from '../../data.json'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 // import Swiper core and required modules
@@ -13,14 +14,7 @@ import SwiperCore, {
 SwiperCore.use([Pagination, Navigation]);
 
 export default function Home() {
-  const continents = [
-    { name: "América", slogan: "", picture: "https://images.unsplash.com/photo-1565366358089-14a5c3086eda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" },
-    { name: "Europa", slogan: "Continente mais antigo.", picture: "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" },
-    { name: "Africa", slogan: "", picture: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80" },
-    { name: "Asia", slogan: "", picture: "https://images.unsplash.com/photo-1535139262971-c51845709a48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" },
-    { name: "Oceania", slogan: "", picture: "https://images.unsplash.com/photo-1589330273594-fade1ee91647?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" },
-    { name: "Antártida", slogan: "", picture: "https://images.unsplash.com/photo-1582758487685-37f5db2f1dff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" },
-  ]
+  const continents = data.continents
   return (
     <Flex
       direction="column"
@@ -61,7 +55,7 @@ export default function Home() {
                 <VStack
                   spacing="2"
                   position="absolute"
-                  left={["20%", "45%"]}
+                  left={["20%", "40%"]}
                   top="40%"
                   transform="translate(-50% -50%)"
                 >
